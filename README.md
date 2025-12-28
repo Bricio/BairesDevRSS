@@ -15,6 +15,11 @@ Just an exercise to fetch site data using threads and saving it on DB
 ```
 sudo yum install python3.11
 ```
+2.1 If pip is not installed
+```
+python3.11 -m ensurepip --upgrade
+```
+
 3. Install desired package
 ```
 python3.11 -m pip install requests -t python/lib/python3.11/site-packages
